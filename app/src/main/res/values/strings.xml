@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_main_menu">main_menu</string>
+    <string name="HelpText">
+        "<b>StopWatch:</b> \n
+- Click start to start the count process. \n
+- hit stop to stop at any time \n
+- the lap button will display text for the time you hit it when you press the button. \n
+- NOTE: maximum amount of laps is 5 for now \n \n
+        <b>Timer:</b> \n
+- click the up and down arrows to navigate to the time settings you want \n
+- the timer will then count down to 0 and a desired alarm will sound/flash.
+            "</string>
+    <string name="StopClock">StopClock</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="289dp"
+        app:srcCompat="@drawable/stopwatch"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/stopwatch" />
+
+    <TextView
+        android:text="StopClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:elevation="0dp"
+        android:fontFamily="monospace" />
+</LinearLayout>

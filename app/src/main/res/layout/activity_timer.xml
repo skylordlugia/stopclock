@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/RelLayout">
+
+    <GridLayout
+        android:id="@+id/clockLayout"
+        android:layout_marginTop="20dp"
+        android:layout_height="150dp"
+        android:layout_width="355dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/digit00"
+            android:layout_row="1"
+            android:layout_column="10"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/linearLayout2"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/digit0"
+            android:layout_row="1"
+            android:layout_column="9"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/linearLayout2"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/separator1"
+            android:layout_row="1"
+            android:layout_column="8"
+            android:src="@drawable/separator"
+            android:layout_height="75dp"
+            android:layout_width="22dp" />
+
+        <ImageView
+            android:id="@+id/digit1"
+            android:layout_row="1"
+            android:layout_column="7"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/digit2"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/separator2"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:src="@drawable/separator"
+            android:layout_height="75dp"
+            android:layout_width="22dp" />
+
+        <ImageView
+            android:id="@+id/digit3"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/digit4"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/separator3"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/separator"
+            android:layout_height="75dp"
+            android:layout_width="22dp" />
+
+        <ImageView
+            android:id="@+id/digit5"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:id="@+id/digit6"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/led0"
+            android:layout_height="80dp"
+            android:layout_width="36dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up8"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up7"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up6"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up5"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up4"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up3"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up2"
+            android:layout_row="0"
+            android:layout_column="9"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/up1"
+            android:layout_row="0"
+            android:layout_column="10"
+            android:visibility="visible"
+            android:src="@drawable/arrowup"
+            android:layout_gravity="center"
+            android:layout_width="30dp" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down8"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down7"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down6"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down5"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down1"
+            android:layout_row="2"
+            android:layout_column="10"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down2"
+            android:layout_row="2"
+            android:layout_column="9"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down3"
+            android:layout_row="2"
+            android:layout_column="7"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+        <ImageView
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clockLayout"
+            android:id="@+id/down4"
+            android:layout_row="2"
+            android:layout_column="6"
+            android:visibility="visible"
+            android:src="@drawable/arrowdown"
+            android:layout_width="30dp"
+            android:layout_gravity="top|center" />
+
+    </GridLayout>
+
+    <TextView
+        android:text="Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/clockLayout" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtMessage"
+        android:hint="Enter Custom Message"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignStart="@+id/clockLayout"
+        android:layout_marginTop="25dp"
+        android:layout_alignEnd="@+id/clockLayout"
+        android:background="@android:drawable/editbox_background"
+        android:maxLength="160" />
+
+    <TextView
+        android:text="Custom text will be sent as SMS to desired mobile number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="14dp"
+        android:id="@+id/txtPhoneNo"
+        android:hint="Enter Mobile Number"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/txtMessage"
+        android:layout_alignStart="@+id/txtMessage"
+        android:digits="+0123456789"
+        android:maxLength="12" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout4"
+        android:layout_height="50dp"
+        android:layout_below="@+id/clockLayout">
+
+        <Button
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startbtn"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <Button
+            android:text="Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopbtn"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</RelativeLayout>
